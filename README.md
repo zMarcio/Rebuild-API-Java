@@ -6,12 +6,12 @@ Adopet é um site fictício de adoção de pets, com funcionalidades para cadast
 
 ## ⚙️ Funcionalidades
 
-- [x] Cadastro/atualização de tutores;
-- [x] Cadastro de abrigos;
-- [x] Cadastro de pets do abrigo;
-- [x] Listagem de pets disponíveis para adoção;
-- [x] Solicitação de adoção;
-- [x] Aprovação/reprovação de adoção;
+- ✅ Cadastro/atualização de tutores;
+- ✅ Cadastro de abrigos;
+- ✅ Cadastro de pets do abrigo;
+- ✅ Listagem de pets disponíveis para adoção;
+- ✅ Solicitação de adoção;
+- ✅ Aprovação/reprovação de adoção;
 
 ---
 
