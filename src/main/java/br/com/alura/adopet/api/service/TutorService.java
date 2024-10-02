@@ -1,7 +1,9 @@
 package br.com.alura.adopet.api.service;
 
+import br.com.alura.adopet.api.dto.AtualizandoTutoDTO;
 import br.com.alura.adopet.api.dto.CadastroTutorDTO;
 import br.com.alura.adopet.api.excpetion.ValidacaoExcpetion;
+import br.com.alura.adopet.api.model.Tutor;
 import br.com.alura.adopet.api.repository.TutorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +23,8 @@ public class TutorService {
         }
     }
 
-    public void atualizar(CadastroTutorDTO dto){
-        repository.save(dto.tutor());
+    public void atualizar(AtualizandoTutoDTO dto){
+        Tutor tutor = repository.getReferenceById(dto.id());
+        tutor.atualizarDados(dto);
     }
 }
